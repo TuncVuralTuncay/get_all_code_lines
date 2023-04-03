@@ -2,7 +2,7 @@ import os
 
 rootdir = "."
 lin = 0
-skip_dirs = ['node_modules', 'sqlmapproject-sqlmap-4dd362c','blender-3.5.0-linux-x64','Tor Browser','buildozer','Stitch','Bitcoin-wallet-cracker','ssmbomb-main']
+skip_dirs = ['enter the folder names to skip']
 file_count = 0
 h_line = 0
 for subdir, dirs, files in os.walk(rootdir, topdown=True):
